@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{E8329DF6-A4C5-43BC-B57A-6234B735EF3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj", "{1706EDE5-8F11-4D04-9A1E-C69295EBA21B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj", "{1706EDE5-8F11-4D04-9A1E-C69295EBA21B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{FCFA195A-E6DA-478F-81FE-6715F648E9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGw", "OcelotApiGw\OcelotApiGw.csproj", "{9073C64B-5A00-4A73-9B96-51E49E0CA400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,10 @@ Global
 		{1706EDE5-8F11-4D04-9A1E-C69295EBA21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1706EDE5-8F11-4D04-9A1E-C69295EBA21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1706EDE5-8F11-4D04-9A1E-C69295EBA21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9073C64B-5A00-4A73-9B96-51E49E0CA400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9073C64B-5A00-4A73-9B96-51E49E0CA400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9073C64B-5A00-4A73-9B96-51E49E0CA400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9073C64B-5A00-4A73-9B96-51E49E0CA400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +107,7 @@ Global
 		{C5C27379-47BB-4B04-8E61-282EA601D46A} = {2DF11E20-A08B-4DB4-9522-7D579E3D95AA}
 		{D468B12B-A94F-4EF7-ACB5-017CE405E4E3} = {2DF11E20-A08B-4DB4-9522-7D579E3D95AA}
 		{1706EDE5-8F11-4D04-9A1E-C69295EBA21B} = {E8329DF6-A4C5-43BC-B57A-6234B735EF3D}
+		{9073C64B-5A00-4A73-9B96-51E49E0CA400} = {FCFA195A-E6DA-478F-81FE-6715F648E9D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A1BA63A-5B2B-41A1-B56D-2666EDFED284}

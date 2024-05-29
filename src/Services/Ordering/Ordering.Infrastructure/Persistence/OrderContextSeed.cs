@@ -22,8 +22,58 @@ namespace Ordering.Infrastructure.Persistence
         {
             return new List<Order>
             {
-                new Order() {UserName = "swn", FirstName = "Mehmet", LastName = "Ozkaya", EmailAddress = "ezozkme@gmail.com", AddressLine = "Bahcelievler", Country = "Turkey", TotalPrice = 350 }
-            };
+                new Order() {
+                       CreatedBy ="fmis",
+                   CreatedDate =DateTime.Now,
+                   LastModifiedBy="fmis",
+                   LastModifiedDate=DateTime.Now,
+
+                    UserName = "swn",
+                    FirstName = "Mehmet",
+                    LastName = "Ozkaya",
+                    EmailAddress = "ezozkme@gmail.com",
+                    AddressLine = "Bahcelievler", 
+                    Country = "Turkey",
+                    State = "California",
+                    ZipCode = "12345",
+                      CardName = "John Doe",
+                    CardNumber = "1234567890123456",
+                        Expiration = "12/25",
+                    CVV = "123",
+                    TotalPrice = 350
+                }
+                ,
+
+
+
+               new Order()
+{
+                   CreatedBy ="fmis",
+                   CreatedDate =DateTime.Now,
+                   LastModifiedBy="fmis",
+                   LastModifiedDate=DateTime.Now,
+    UserName = "JohnDoe",
+    TotalPrice = 100,
+
+    FirstName = "John",
+    LastName = "Doe",
+    EmailAddress = "johndoe@example.com",
+    AddressLine = "123 Main Street",
+    Country = "United States",
+    State = "California",
+    ZipCode = "12345",
+
+    CardName = "John Doe",
+    CardNumber = "1234567890123456",
+    Expiration = "12/25",
+    CVV = "123",
+    PaymentMethod = 1
+}
+
+
+
+
+        };
         }
     }
 }

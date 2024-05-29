@@ -10,7 +10,7 @@ namespace Ordering.Domain.Entities
     public class Order : EntityBase
     {
         public string UserName { get; set; }
-        public decimal TotalPrice { get; set; }
+        public int TotalPrice { get; set; }
 
         // BillingAddress
         public string FirstName { get; set; }
@@ -25,7 +25,7 @@ namespace Ordering.Domain.Entities
         public string CardName { get; set; }
         public string CardNumber { get; set; }
         public string Expiration { get; set; }
-        public string CVV { get; set; }
+        public string? CVV { get; set; }
         public int PaymentMethod { get; set; }
     }
 }
